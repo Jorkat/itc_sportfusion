@@ -1,0 +1,54 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-image: url("../images/matteo-paganelli-yw2P3ONJO6g-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.shadow-text {
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.titles {
+    color: #0077b6;
+}
+
+.kamptitle {
+    color: #00b4d8;
+}
+
+.custom-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.custom-table td {
+    width: 25%;
+    word-wrap: break-word;
+}
+
+.contact a:link,
+.contact a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.inschrijven a:link,
+.inschrijven a:visited,
+.inschrijven a:hover {
+    text-decoration: underline;
+    color: black;
+}

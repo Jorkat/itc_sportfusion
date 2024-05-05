@@ -1,0 +1,141 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SportFusion Camp :: contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/joris-style.css" />
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary border-bottom" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="images/logo/logo-sportfusion-camp-cropped-outline-navbar.png" alt="Logo" title="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="overzicht-zwemlessen.html">ZWEMLESSEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="overzicht-sportkampen.html">SPORTKAMPEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="overzicht-voetbalkampen.html">VOETBALKAMPEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Inschrijven -->
+    <section class="py-5 border-bottom text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12 justify-content-center">
+              <h1 class="titles">INSCHRIJVEN</h1>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+            <h3>Inschrijvingsformulier</h3>
+            <div class="col-md-8">
+                <form method="post" action="https://tm-statweb.be/forms.php">
+                    <h5>Soort Kamp</h5>
+                    <div class="mb-3">
+                        <label for="kamp_keuze" class="form-label">Selecteer het kamp:</label>
+                        <select class="form-select" id="kamp_keuze" name="kamp_keuze" required>
+                            <option value="Zwemlessen" selected>Zwemlessen</option>
+                            <option value="Sportkamp">Sportkamp</option>
+                            <option value="Voetbalkamp">Voetbalkamp</option>
+                        </select>
+                    <div class="mb-3 mt-3">
+                      <label for="naam_kamp" class="form-label">Naam kamp:</label>
+                      <input type="text" class="form-control" id="naam_kamp" name="naam_kamp" required>
+                    </div>
+
+                    <h5>Gegevens Deelnemer</h5>
+                    <div class="mb-3">
+                        <label for="naam_deelnemer" class="form-label">Naam deelnemer:</label>
+                        <input type="text" class="form-control" id="naam_deelnemer" name="naam_deelnemer" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="geboortedatum" class="form-label">Geboortedatum:</label>
+                        <input type="date" class="form-control" id="geboortedatum" name="geboortedatum" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="medische_geschiedenis" class="form-label">Medische geschiedenis (indien van toepassing):</label>
+                        <textarea class="form-control" id="medische_geschiedenis" name="medische_geschiedenis" rows="3"></textarea>
+                    </div>
+
+                    <h5>Gegevens Ouders/Verzorgers</h5>
+                    <div class="mb-3">
+                        <label for="naam_ouder" class="form-label">Naam ouder/verzorger:</label>
+                        <input type="text" class="form-control" id="naam_ouder" name="naam_ouder" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email_ouder" class="form-label">E-mail ouder/verzorger:</label>
+                        <input type="email" class="form-control" id="email_ouder" name="email_ouder" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefoon_ouder" class="form-label">Telefoon ouder/verzorger:</label>
+                        <input type="text" class="form-control" id="telefoon_ouder" name="telefoon_ouder" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Inschrijven</button>
+                </form>
+            </div>
+        </div>
+            <div class="col-md-4 text-center justify-content-center">
+                <img src="images/cropped/sportkamp-2.jpg" alt="Zwemmen" title="Zwemmen" class="mt-5 mb-5"/>
+                <img src="images/cropped/contact-1.jpg" alt="Zwemmen" title="Zwemmen" class="mb-5"/>
+                <img src="images/cropped/contact-2.jpg" alt="Zwemmen" title="Zwemmen"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / inschrijven -->
+    <section class="bg-light py-5">
+        <div class="container border-top">
+          <div class="row mt-5">
+            <div class="col-12 col-md-6 contact">
+                <h3>Contactgegevens</h3>
+                    <p>Heeft u vragen of opmerkingen? Neem gerust contact met ons op:</p>
+                    <p><i class="fa fa-phone p10"></i> <a href="tel:1234567890">(123) 456-7890</a></p>
+                    <p><i class="fa fa-envelope p10"></i> <a href="mailto:info@SportFusionCamp.com">info@SportFusionCamp.com</a></p>
+            </div>
+            <div class="col-md-6 text-left inschrijven">
+                <h3>Inschrijven</h3>
+                <p>U kunt uw kind inschrijven voor onze zwemlessen door het inschrijvingsformulier in te vullen op onze <a href="contact.html" target="_blank">contactpagina</a>.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer bg-primary py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-white">
+                    &copy; SportFusion Camp
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <script src="https://kit.fontawesome.com/27d5e62956.js" crossorigin="anonymous"></script>
+  </body>
+</html>
